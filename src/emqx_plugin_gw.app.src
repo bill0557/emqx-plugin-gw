@@ -1,0 +1,7 @@
+{application,emqx_plugin_gw,
+             [{description,"EMQ X Plugin gw"},
+              {vsn,"git"},
+              {modules,[]},
+              {registered,[emqx_plugin_gw_sup]},
+              {applications,[kernel,stdlib]},
+              {mod,{emqx_plugin_gw_app,[]}}]}.
